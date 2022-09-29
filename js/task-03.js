@@ -29,7 +29,8 @@ const galleryEl = document.querySelector(".gallery");
 const makeLiEl = images
 .map( ({ url, alt }) => 
 `<li><img src='${url}' alt='${alt}' width="500"></li>`
-);
+)
+.join('');
 
 galleryEl.insertAdjacentHTML("afterbegin", makeLiEl)
 
