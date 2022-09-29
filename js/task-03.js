@@ -31,7 +31,7 @@ const makeLiEl = images
 `<li><img src='${url}' alt='${alt}' width="500"></li>`
 );
 
-galleryEl.insertAdjacentHTML("beforeend", makeLiEl)
+galleryEl.insertAdjacentHTML("afterbegin", makeLiEl)
 
 console.log(makeLiEl);
 
