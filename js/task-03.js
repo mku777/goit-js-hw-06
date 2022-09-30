@@ -23,7 +23,6 @@ const images = [
   },
 ];
 
-
 const galleryEl = document.querySelector(".gallery");
 
 const makeLiEl = images
@@ -34,7 +33,7 @@ const makeLiEl = images
 
 galleryEl.insertAdjacentHTML("beforeend", makeLiEl)
 
-console.log(galleryEl);
+
 
 
 
