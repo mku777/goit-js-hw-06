@@ -32,9 +32,9 @@ const makeLiEl = images
 )
 .join('');
 
-galleryEl.insertAdjacentHTML("afterbegin", makeLiEl)
+galleryEl.insertAdjacentHTML("beforeend", makeLiEl)
 
-console.log(makeLiEl);
+console.log(galleryEl);
 
 
 
