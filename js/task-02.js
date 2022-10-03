@@ -24,5 +24,3 @@ const itemsEl = ingredients.map((ingridient) => {
 });
 
 listEl.append(...itemsEl);
-
-console.log(listEl);
