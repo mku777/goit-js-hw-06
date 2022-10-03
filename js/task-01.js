@@ -36,13 +36,13 @@
 // console.log(`Elements : ${technologiesEl.length}`);
 
 
-const navItemsEl = document.querySelectorAll(".item")
-console.log (`Number of categories: ${navItemsEl.length}`)
+const navItemsEl = document.querySelectorAll(".item");
+console.log(`Number of categories: ${navItemsEl.length}`);
 
 navItemsEl.forEach((elem) => {
-const allTittleEl = elem.querySelector("h2");
-const productEl = elem.querySelectorAll("ul li");
-console.log("");
-console.log(`Category: ${allTittleEl.textContent}` );
-console.log(`Elements: ${productEl.length}`);
+  const allTittleEl = elem.querySelector("h2");
+  const productEl = elem.querySelectorAll("ul li");
+  console.log("");
+  console.log(`Category: ${allTittleEl.textContent}`);
+  console.log(`Elements: ${productEl.length}`);
 });

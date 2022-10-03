@@ -16,13 +16,13 @@ const valueCounter = document.querySelector("#value");
 
 let counterValue = 0;
 
-buttonDecrement.addEventListener('click', () => {
-    counterValue -= 1;
-    return valueCounter.textContent = counterValue;
+buttonDecrement.addEventListener("click", () => {
+  counterValue -= 1;
+  return (valueCounter.textContent = counterValue);
 });
 
-buttonIncrement.addEventListener('click', () => {
-    counterValue += 1;
-    return valueCounter.textContent = counterValue;
+buttonIncrement.addEventListener("click", () => {
+  counterValue += 1;
+  return (valueCounter.textContent = counterValue);
 });
 

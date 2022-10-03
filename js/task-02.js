@@ -6,22 +6,22 @@
 // После чего вставит все <li> за одну операцию в список ul#ingredients.
 
 const ingredients = [
-  'Potatoes',
-  'Mushrooms',
-  'Garlic',
-  'Tomatos',
-  'Herbs',
-  'Condiments',
+  "Potatoes",
+  "Mushrooms",
+  "Garlic",
+  "Tomatos",
+  "Herbs",
+  "Condiments",
 ];
 
-const listEl = document.querySelector("#ingredients")
+const listEl = document.querySelector("#ingredients");
 
-const itemsEl = ingredients.map(ingridient => {
-  const liEl = document.createElement('li');
+const itemsEl = ingredients.map((ingridient) => {
+  const liEl = document.createElement("li");
   liEl.textContent = ingridient;
-  liEl.classList.add('item');
+  liEl.classList.add("item");
   return liEl;
-})
+});
 
 listEl.append(...itemsEl);
 
